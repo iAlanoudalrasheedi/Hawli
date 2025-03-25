@@ -1,0 +1,281 @@
+.navbar {
+  background-color: #333;
+  color: #161616;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.navbar .search-logo {
+  margin-left: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  margin-bottom: 15px;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.navbar-links {
+  margin-right: 20px;
+}
+
+.navbar-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-search {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.greeting {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.moving-photo {
+  width: 200px;
+  height: 200px;
+  background-image: url('../img/loogo.jpeg');
+  background-size: cover;
+  animation: movePhoto 5s infinite;
+}
+
+@keyframes movePhoto {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.center-text {
+  text-align: center;
+  font-size: 20;
+}
+
+.restaurant {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.image-row img {
+  max-width: 250%;
+  height: 250px;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+  .container .text {
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: right;
+  }
+  .container .reveiw-form {
+    text-align: left;
+  }
+  .container img {
+    max-width: 100%;
+    max-height:100%;
+  }
+
+  .list-items .item {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+
+  .list-items a {
+    text-decoration: unset;
+    color: darkslateblue;
+  }
+
+  .list-items a:hover {
+    color: midnightblue;
+  }
+
+  .list-items .cat-name {
+    border-bottom: 1px solid gray;
+    margin-top: 60px;
+  }
+
+
+  .item-rating .selected {
+    color: orange;
+  }
+
+
+.reveiw-form form {
+    width: 600px;
+    margin: auto;
+}
+
+.reviews {
+    width: 900px;
+    margin: auto;
+}
+
+.reviews .review-item {
+    border-bottom: 1px solid gray;
+}
+
+
+  
+form {
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-group button:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+.row h2 {
+    font-family: Cambria;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card .date {
+    text-align: right;
+    margin-bottom: 30px;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.indent {
+    text-indent: 50px; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+table, th, td {
+    border: 2px solid lightgray;
+  }
+
+  table {
+    width: 800px;
+    margin: auto auto;
+  }
+
+  thead {
+    background-color: #999;
+  }
+
+  th {
+    padding: 5px;
+  }
+
+
+
+
+  .button {
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color:gray;
+  }
+
+
+
+  .login-form form {
+    max-width: 600px;
+    margin: auto;
+  }
